@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Style\Fonts\Roboto-Medium.ttf" />
+      <Resource Include="Style\Fonts\Roboto-Medium.ttf" />
+      <None Remove="Style\Fonts\Roboto-Regular.ttf" />
+      <Resource Include="Style\Fonts\Roboto-Regular.ttf" />
+      <None Remove="Style\Image\emoji-background.png" />
+      <Resource Include="Style\Image\emoji-background.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Annotations.cs" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="275f20f0-933a-4d69-b743-a387fdbff7d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp3/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp3/.idea/projectSettingsUpdater.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/StartPageViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Commands/DelegateCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Navigator/Navigate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/App.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Style/Texts.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Style/Fonts.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Style/Buttons.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Style/Combobox.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/59FBC93C-EEDB-4022-A198-1C86E9CF8E53/9/Uri.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/ViewModel/Base/OverlayService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/59FBC93C-EEDB-4022-A198-1C86E9CF8E53/A/UriExt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Core/Mode/GameMode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Core/EnumToItemsSource.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Converter/EnumConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/ViewModel/MainWindowViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/ViewModel/Base/BaseViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/GamePageViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/Pages/StartPage.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Model/Elements.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/Pages/StartPage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/Pages/GamePage.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Helpers/ArrayTools.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/Pages/GamePage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Core/CellState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Core/GameResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/Pages/ResultPage.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/Pages/ResultPage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/ResultPageViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WpfApp3/Views/Pages/StartPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/Views/Pages/GamePage.xaml.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/Commands/DelegateCommand.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/Navigator/Navigate.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/ViewModel/PageViewModel/StartPageViewModel.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/ViewModel/MainWindowViewModel.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/App.xaml" />
+        <option value="$PROJECT_DIR$/WpfApp3/Style/Fonts.xaml" />
+        <option value="$PROJECT_DIR$/WpfApp3/Style/Texts.xaml" />
+        <option value="$PROJECT_DIR$/WpfApp3/Style/Image/Buttons.xaml" />
+        <option value="$PROJECT_DIR$/WpfApp3/Style/Combobox.xaml" />
+        <option value="$PROJECT_DIR$/WpfApp3/ViewModel/Base/OverlayService.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/Core/EnumToItemsSource.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/Converter/EnumConverter.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/Core/Mode/GameMode.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/Converter/OverlayConverter.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/Helpers/ArrayTools.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/Core/CellState.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/Core/GameResult.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/StartPageViewModel.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/Views/Pages/ResultPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/ResultPageViewModel.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/Style/Buttons.xaml" />
+        <option value="$PROJECT_DIR$/WpfApp3/Views/Pages/ResultPage.xaml" />
+        <option value="$PROJECT_DIR$/WpfApp3/Views/Pages/GamePage.xaml" />
+        <option value="$PROJECT_DIR$/WpfApp3/Model/Elements.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/GamePageViewModel.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/Views/Pages/StartPage.xaml" />
+        <option value="$PROJECT_DIR$/WpfApp3/Views/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/WpfApp3/ViewModel/Base/BaseViewModel.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VkAWJiy0hdptbYVf7WRmciy4KT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="WpfApp3" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/WpfApp3/WpfApp3.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="275f20f0-933a-4d69-b743-a387fdbff7d5" name="Default Changelist" comment="" />
+      <created>1577786751467</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577786751467</updated>
+      <workItem from="1577786758384" duration="4670000" />
+      <workItem from="1577863022908" duration="14731000" />
+      <workItem from="1577946368330" duration="479000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state width="1323" height="154" key="GridCell.Tab.0.bottom" timestamp="1577946861783">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="154" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577946861783" />
+    <state width="1323" height="154" key="GridCell.Tab.0.center" timestamp="1577946861783">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="154" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577946861783" />
+    <state width="1323" height="154" key="GridCell.Tab.0.left" timestamp="1577946861783">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="154" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577946861783" />
+    <state width="1323" height="154" key="GridCell.Tab.0.right" timestamp="1577946861783">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="154" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577946861783" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1577786974597">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577786974597" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1577786974596">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1577786974596" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1577786974596">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1577786974596" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1577786974597">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1577786974597" />
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom" timestamp="1577786974598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577786974598" />
+    <state width="1323" height="223" key="GridCell.Tab.2.center" timestamp="1577786974597">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1577786974597" />
+    <state width="1323" height="223" key="GridCell.Tab.2.left" timestamp="1577786974597">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1577786974597" />
+    <state width="1323" height="223" key="GridCell.Tab.2.right" timestamp="1577786974597">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1577786974597" />
+    <state width="1323" height="223" key="GridCell.Tab.3.bottom" timestamp="1577786974599">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577786974599" />
+    <state width="1323" height="223" key="GridCell.Tab.3.center" timestamp="1577786974598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1577786974598" />
+    <state width="1323" height="223" key="GridCell.Tab.3.left" timestamp="1577786974598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1577786974598" />
+    <state width="1323" height="223" key="GridCell.Tab.3.right" timestamp="1577786974598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1577786974598" />
+    <state width="1323" height="223" key="GridCell.Tab.4.bottom" timestamp="1577786974599">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.4.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577786974599" />
+    <state width="1323" height="223" key="GridCell.Tab.4.center" timestamp="1577786974599">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.4.center/0.0.1366.728@0.0.1366.728" timestamp="1577786974599" />
+    <state width="1323" height="223" key="GridCell.Tab.4.left" timestamp="1577786974599">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.4.left/0.0.1366.728@0.0.1366.728" timestamp="1577786974599" />
+    <state width="1323" height="223" key="GridCell.Tab.4.right" timestamp="1577786974599">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.4.right/0.0.1366.728@0.0.1366.728" timestamp="1577786974599" />
+    <state x="384" y="64" key="RiderGenerateDialog" timestamp="1577872276791">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="64" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1577872276791" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1577789183165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577789183165" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1577874501395">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1577874501395" />
+  </component>
+</project>

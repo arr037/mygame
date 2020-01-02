@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="WpfApp3.Views.Pages.ResultPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:WpfApp3.Views.Pages"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+    
+    <Grid MaxWidth="350">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock VerticalAlignment="Center" Text="Выиграл игрок: " FontWeight="DemiBold" FontFamily="Yu Gothic UI" FontSize="18" Foreground="White"/>
+            <Border Margin="5 5 5 5" Background="#ffa800" CornerRadius="2">
+                <TextBlock Text="{Binding WhoWin}" TextTrimming="WordEllipsis" TextWrapping="Wrap" FontFamily="Yu Gothic UI" Padding="10 7" FontSize="18" Foreground="White"/>
+            </Border>
+        </StackPanel>
+
+        <Grid Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Button Content="{Binding ButtonContents[0]}" Background="{Binding ButtonBrushes[0],FallbackValue=White}" Grid.Column="0" Style="{StaticResource ars}" Grid.Row="0" Tag="0" Width="100" Height="100" Margin="0.5" Cursor="Hand" />
+            <Button Content="{Binding ButtonContents[1]}" Background="{Binding ButtonBrushes[1],FallbackValue=White}" Grid.Column="1" Style="{StaticResource ars}" Grid.Row="0" Tag="1" Width="100" Height="100" Margin="0.5" Cursor="Hand" />
+            <Button Content="{Binding ButtonContents[2]}" Background="{Binding ButtonBrushes[2],FallbackValue=White}" Grid.Column="2" Style="{StaticResource ars}" Grid.Row="0" Tag="2" Width="100" Height="100" Margin="0.5" Cursor="Hand" />
+                                                
+            <Button Content="{Binding ButtonContents[3]}" Background="{Binding ButtonBrushes[3],FallbackValue=White}" Grid.Column="0" Style="{StaticResource ars}" Grid.Row="1" Tag="3" Width="100" Height="100" Margin="0.5" Cursor="Hand" />
+            <Button Content="{Binding ButtonContents[4]}" Background="{Binding ButtonBrushes[4],FallbackValue=White}" Grid.Column="1" Style="{StaticResource ars}" Grid.Row="1" Tag="4" Width="100" Height="100" Margin="0.5" Cursor="Hand" />
+            <Button Content="{Binding ButtonContents[5]}" Background="{Binding ButtonBrushes[5],FallbackValue=White}" Grid.Column="2" Style="{StaticResource ars}" Grid.Row="1" Tag="5" Width="100" Height="100" Margin="0.5" Cursor="Hand" />
+
+            <Button Content="{Binding ButtonContents[6]}" Background="{Binding ButtonBrushes[6],FallbackValue=White}" Grid.Column="0" Style="{StaticResource ars}" Grid.Row="2" Tag="6" Width="100" Height="100" Margin="0.5" Cursor="Hand" />
+            <Button Content="{Binding ButtonContents[7]}" Background="{Binding ButtonBrushes[7],FallbackValue=White}" Grid.Column="1" Style="{StaticResource ars}" Grid.Row="2" Tag="7" Width="100" Height="100" Margin="0.5" Cursor="Hand" />
+            <Button Content="{Binding ButtonContents[8]}" Background="{Binding ButtonBrushes[8],FallbackValue=White}" Grid.Column="2" Style="{StaticResource ars}" Grid.Row="2" Tag="8" Width="100" Height="100" Margin="0.5" Cursor="Hand" />
+        </Grid>
+
+        <Button Command="{Binding NewGame}" Grid.Row="2" Content="Новая игра" Cursor="Hand" HorizontalAlignment="Center" HorizontalContentAlignment="Center"  Style="{StaticResource ButtonStyle}"/>
+    </Grid>
+</UserControl>

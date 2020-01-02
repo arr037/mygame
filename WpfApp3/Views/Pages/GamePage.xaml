@@ -1,0 +1,137 @@
+﻿<UserControl x:Class="WpfApp3.Views.Pages.GamePage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:WpfApp3.Views.Pages"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <UserControl.Resources>
+        <ControlTemplate x:Key="ElementsItems" TargetType="ListBoxItem">
+            <Grid>
+                <Border
+                    Name="brd"
+                    Margin="10,2"
+                    Background="White"
+                    CornerRadius="2"
+                    Visibility="Visible">
+                    <TextBlock
+                        Name="txt"
+                        Margin="5"
+                        VerticalAlignment="Center"
+                        FontWeight="Bold"
+                        Foreground="#E5000000"
+                        Text="{Binding ElementName}"
+                        
+                        TextAlignment="Center"
+                        TextTrimming="CharacterEllipsis" />
+                </Border>
+
+                <Polygon
+                    Name="triangle"
+                    Margin="2"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Fill="{Binding ElementName=brd, Path=Background}"
+                    Points="0,0 20,15, 0,30"
+                    Visibility="Hidden" />
+            </Grid>
+
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter TargetName="brd" Property="Background" Value="#ffa800" />
+                    <Setter TargetName="txt" Property="Foreground" Value="White" />
+                </Trigger>
+
+                <Trigger Property="IsSelected" Value="true">
+                    <Setter TargetName="brd" Property="Background" Value="#ffa800" />
+                    <Setter TargetName="triangle" Property="Visibility" Value="Visible" />
+                    <Setter TargetName="txt" Property="Foreground" Value="White" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <ListBox
+            Grid.Column="0"
+            HorizontalContentAlignment="Left"
+            Background="Transparent"
+            BorderThickness="0"
+            ItemsSource="{Binding Elements,IsAsync=True}"
+            SelectedItem="{Binding SelectedItem}"
+            ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="Template" Value="{StaticResource ElementsItems}" />
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListBox>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Orientation="Horizontal">
+                <TextBlock VerticalAlignment="Center" Text="Ходит игрок: " FontWeight="DemiBold"
+                           FontFamily="Yu Gothic UI" FontSize="18" Foreground="White" />
+                <Border Margin="5 5 5 5" Background="#ffa800" CornerRadius="2">
+                    <TextBlock Text="{Binding WhoMove}" FontFamily="Yu Gothic UI" Padding="10 7" FontSize="18"
+                               Foreground="White" />
+                </Border>
+            </StackPanel>
+
+            <Grid Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Button Name="Button0" Grid.Column="0" Style="{StaticResource ars}" Grid.Row="0" Tag="0"
+                        Command="{Binding GetClick}" CommandParameter="{Binding ElementName=Button0}" Width="100"
+                        Height="100" Margin="0.5" Cursor="Hand" />
+                <Button Name="Button1" Grid.Column="1" Style="{StaticResource ars}" Grid.Row="0" Tag="1"
+                        Command="{Binding GetClick}" CommandParameter="{Binding ElementName=Button1}" Width="100"
+                        Height="100" Margin="0.5" Cursor="Hand" />
+                <Button Name="Button2" Grid.Column="2" Style="{StaticResource ars}" Grid.Row="0" Tag="2"
+                        Command="{Binding GetClick}" CommandParameter="{Binding ElementName=Button2}" Width="100"
+                        Height="100" Margin="0.5" Cursor="Hand" />
+
+                <Button Name="Button3" Grid.Column="0" Style="{StaticResource ars}" Grid.Row="1" Tag="3"
+                        Command="{Binding GetClick}" CommandParameter="{Binding ElementName=Button3}" Width="100"
+                        Height="100" Margin="0.5" Cursor="Hand" />
+                <Button Name="Button4" Grid.Column="1" Style="{StaticResource ars}" Grid.Row="1" Tag="4"
+                        Command="{Binding GetClick}" CommandParameter="{Binding ElementName=Button4}" Width="100"
+                        Height="100" Margin="0.5" Cursor="Hand" />
+                <Button Name="Button5" Grid.Column="2" Style="{StaticResource ars}" Grid.Row="1" Tag="5"
+                        Command="{Binding GetClick}" CommandParameter="{Binding ElementName=Button5}" Width="100"
+                        Height="100" Margin="0.5" Cursor="Hand" />
+
+                <Button Name="Button6" Grid.Column="0" Style="{StaticResource ars}" Grid.Row="2" Tag="6"
+                        Command="{Binding GetClick}" CommandParameter="{Binding ElementName=Button6}" Width="100"
+                        Height="100" Margin="0.5" Cursor="Hand" />
+                <Button Name="Button7" Grid.Column="1" Style="{StaticResource ars}" Grid.Row="2" Tag="7"
+                        Command="{Binding GetClick}" CommandParameter="{Binding ElementName=Button7}" Width="100"
+                        Height="100" Margin="0.5" Cursor="Hand" />
+                <Button Name="Button8" Grid.Column="2" Style="{StaticResource ars}" Grid.Row="2" Tag="8"
+                        Command="{Binding GetClick}" CommandParameter="{Binding ElementName=Button8}" Width="100"
+                        Height="100" Margin="0.5" Cursor="Hand" />
+            </Grid>
+        </Grid>
+
+    </Grid>
+</UserControl>
