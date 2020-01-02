@@ -10,6 +10,7 @@ using WpfApp3.Core.Mode;
 using WpfApp3.Helpers;
 using WpfApp3.Model;
 using WpfApp3.Navigator;
+using WpfApp3.ViewModel.Base;
 using WpfApp3.Views.Pages;
 
 namespace WpfApp3.ViewModel.PagesViewModel
@@ -53,6 +54,8 @@ namespace WpfApp3.ViewModel.PagesViewModel
             _player1 = player1;
             _player2 = player2;
             WhoMove = _player1;
+
+            OverlayService.GetInstance().Visibility = Visibility.Collapsed;
         }
 
         private void ClickButton(object obj)
@@ -233,6 +236,476 @@ namespace WpfApp3.ViewModel.PagesViewModel
             if(Elements ==null)
                 Elements = new ObservableCollection<Elements>();
             
+            Elements.Add(new Elements
+            {
+                ElementName = "H",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "M",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "C",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C2",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "M",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "C",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C2",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "M",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "C",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C2",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "M",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "C",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C2",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "M",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "C",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C2",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "M",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "C",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C2",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "M",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "C",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C2",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "M",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "C",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C2",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "M",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "C",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C2",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "H2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "M",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "M2",
+                IsCheck = true,
+            });
+            
+            Elements.Add(new Elements
+            {
+                ElementName = "C",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C1",
+                IsCheck = true,
+            });
+            Elements.Add(new Elements
+            {
+                ElementName = "C2",
+                IsCheck = true,
+            });
             Elements.Add(new Elements
             {
                 ElementName = "H",

@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp3"
         xmlns:viewModel="clr-namespace:WpfApp3.ViewModel"
+        xmlns:model="clr-namespace:WpfApp3.ViewModel.Base"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    
+    <Window.Resources>
+        <ObjectDataProvider
+            x:Key="OverlayService"
+            MethodName="GetInstance"
+            ObjectType="{x:Type model:OverlayService}" />
+    </Window.Resources>
     
     <Window.DataContext>
         <viewModel:MainWindowViewModel />
@@ -19,7 +27,34 @@
             </Grid.Background>
             <ContentControl Content="{Binding CurrentPage}"/>
             
-            
+            <Grid
+                Visibility="{Binding Source={StaticResource OverlayService},Path=Visibility}"
+                Grid.ColumnSpan="2"
+                Background="#7F302E31">
+                <Border
+                    Width="500"
+                    Height="300"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Background="White"
+                    CornerRadius="7">
+                    <Grid>
+                        <StackPanel VerticalAlignment="Center">
+                            <TextBlock
+                                FontSize="30"
+                                Text="Идет загрузка..."
+                                TextAlignment="Center" />
+                            <ProgressBar
+                                Height="20"
+                                Margin="20"
+                                Background="Green"
+                                BorderThickness="0"
+                                Foreground="GreenYellow"
+                                IsIndeterminate="True" />
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </Grid>
         </Grid>
     </Border>
 </Window>

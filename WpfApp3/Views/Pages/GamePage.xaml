@@ -23,7 +23,6 @@
                         FontWeight="Bold"
                         Foreground="#E5000000"
                         Text="{Binding ElementName}"
-                        
                         TextAlignment="Center"
                         TextTrimming="CharacterEllipsis" />
                 </Border>
@@ -59,21 +58,20 @@
             <ColumnDefinition Width="200" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-
         <ListBox
             Grid.Column="0"
-            HorizontalContentAlignment="Left"
-            Background="Transparent"
-            BorderThickness="0"
-            ItemsSource="{Binding Elements,IsAsync=True}"
-            SelectedItem="{Binding SelectedItem}"
-            ScrollViewer.HorizontalScrollBarVisibility="Disabled">
-            <ListBox.ItemContainerStyle>
-                <Style TargetType="ListBoxItem">
-                    <Setter Property="Template" Value="{StaticResource ElementsItems}" />
-                </Style>
-            </ListBox.ItemContainerStyle>
-        </ListBox>
+                HorizontalContentAlignment="Left"
+                Background="Transparent"
+                BorderThickness="0"
+                ItemsSource="{Binding Elements,IsAsync=True}"
+                SelectedItem="{Binding SelectedItem}"
+                ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="Template" Value="{StaticResource ElementsItems}" />
+                    </Style>
+                </ListBox.ItemContainerStyle>
+            </ListBox>
 
         <Grid Grid.Column="1">
             <Grid.RowDefinitions>
@@ -81,7 +79,7 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <StackPanel Grid.Row="0" Margin="7 0 0 0" Orientation="Horizontal">
                 <TextBlock VerticalAlignment="Center" Text="Ходит игрок: " FontWeight="DemiBold"
                            FontFamily="Yu Gothic UI" FontSize="18" Foreground="White" />
                 <Border Margin="5 5 5 5" Background="#ffa800" CornerRadius="2">

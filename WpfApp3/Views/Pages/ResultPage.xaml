@@ -45,6 +45,6 @@
             <Button Content="{Binding ButtonContents[8]}" Background="{Binding ButtonBrushes[8],FallbackValue=White}" Grid.Column="2" Style="{StaticResource ars}" Grid.Row="2" Tag="8" Width="100" Height="100" Margin="0.5" Cursor="Hand" />
         </Grid>
 
-        <Button Command="{Binding NewGame}" Grid.Row="2" Content="Новая игра" Cursor="Hand" HorizontalAlignment="Center" HorizontalContentAlignment="Center"  Style="{StaticResource ButtonStyle}"/>
+        <Button Command="{Binding NewGame}" Grid.Row="2" Content="Новая игра" Cursor="Hand" HorizontalAlignment="Center" HorizontalContentAlignment="Center"  Style="{StaticResource ButtonStyleNotTriggers}"/>
     </Grid>
 </UserControl>

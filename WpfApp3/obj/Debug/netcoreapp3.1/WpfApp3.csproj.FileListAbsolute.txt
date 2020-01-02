@@ -27,3 +27,4 @@ C:\Users\Rus\RiderProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\Style\Texts.b
 C:\Users\Rus\RiderProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\App.baml
 C:\Users\Rus\RiderProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\Views\Pages\ResultPage.g.cs
 C:\Users\Rus\RiderProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\Views\Pages\ResultPage.baml
+C:\Users\Rus\RiderProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\Style\ScrolViewViewer.baml

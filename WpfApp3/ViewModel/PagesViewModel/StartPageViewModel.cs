@@ -49,11 +49,11 @@ namespace WpfApp3.ViewModel.PagesViewModel
                 OverlayService.GetInstance().Text = v;
                 return;
             }
-            
-             NavigateTo(new GamePage
-             {
-                 DataContext = new GamePageViewModel(GameMode,Player1,Player2),
-             });
+            OverlayService.GetInstance().Visibility = Visibility.Visible;
+            NavigateTo(new GamePage
+            {
+                DataContext = new GamePageViewModel(GameMode,Player1,Player2),
+            });
         }
 
         private void Errors(object obj)

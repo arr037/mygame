@@ -61,6 +61,7 @@
           <e p="Image" t="Include">
             <e p="emoji-background.png" t="Include" />
           </e>
+          <e p="ScrolViewViewer.xaml" t="Include" />
           <e p="Texts.xaml" t="Include" />
         </e>
         <e p="ViewModel" t="Include">

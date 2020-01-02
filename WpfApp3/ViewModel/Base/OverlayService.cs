@@ -1,20 +1,19 @@
 ﻿using System;
+using System.Windows;
 
 namespace WpfApp3.ViewModel.Base
 {
     public class OverlayService:BaseViewModel
     {
-        private static OverlayService _Instance = new OverlayService();
-        public static OverlayService GetInstance() => _Instance;
+        private static OverlayService _overlayService()
+        {
+            return _Instance ??= new OverlayService();
+        }
+
+        private static OverlayService _Instance;
+        public static OverlayService GetInstance() => _overlayService();
 
         private OverlayService() { }
-        private Action<string> _show;
-
-        public Action<string> Show
-        {
-            get => _show;
-            set => SetProperty(ref _show, value);
-        }
 
         private string _text = "";
 
@@ -22,6 +21,14 @@ namespace WpfApp3.ViewModel.Base
         {
             get => _text;
             set => SetProperty(ref _text, value);
+        }
+
+        private Visibility _visibility = System.Windows.Visibility.Collapsed;
+
+        public Visibility Visibility
+        {
+            get => _visibility;
+            set => SetProperty(ref _visibility, value);
         }
 
         public void Close()

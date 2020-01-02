@@ -2,7 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="275f20f0-933a-4d69-b743-a387fdbff7d5" name="Default Changelist" comment="MyProject">
+      <change afterPath="$PROJECT_DIR$/WpfApp3/Style/ScrolViewViewer.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Style/ScrolViewViewer.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WpfApp3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp3/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WpfApp3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/App.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/Style/Buttons.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/Style/Buttons.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/ViewModel/Base/OverlayService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/ViewModel/Base/OverlayService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/GamePageViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/GamePageViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/StartPageViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/StartPageViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp3/Views/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/Views/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/Views/Pages/GamePage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/Views/Pages/GamePage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/Views/Pages/ResultPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/Views/Pages/ResultPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/bin/Debug/netcoreapp3.1/WpfApp3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/bin/Debug/netcoreapp3.1/WpfApp3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/bin/Debug/netcoreapp3.1/WpfApp3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/bin/Debug/netcoreapp3.1/WpfApp3.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/App.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/App.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/App.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Style/Buttons.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Style/Buttons.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Style/Combobox.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Style/Combobox.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Style/Fonts.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Style/Fonts.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Style/Texts.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Style/Texts.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Views/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Views/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Views/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Views/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Views/Pages/GamePage.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Views/Pages/GamePage.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Views/Pages/GamePage.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Views/Pages/GamePage.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Views/Pages/ResultPage.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Views/Pages/ResultPage.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Views/Pages/ResultPage.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Views/Pages/ResultPage.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Views/Pages/StartPage.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/Views/Pages/StartPage.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/WpfApp3.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/WpfApp3.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/WpfApp3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/WpfApp3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/WpfApp3.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/WpfApp3.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/WpfApp3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/WpfApp3.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/WpfApp3_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/obj/Debug/netcoreapp3.1/WpfApp3_MarkupCompile.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +77,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/59FBC93C-EEDB-4022-A198-1C86E9CF8E53/A/UriExt.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/59FBC93C-EEDB-4022-A198-1C86E9CF8E53/9/Uri.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WpfApp3/Core/CellState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Style/ScrolViewViewer.xaml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -56,12 +88,10 @@
         <option value="$PROJECT_DIR$/WpfApp3/Navigator/Navigate.cs" />
         <option value="$PROJECT_DIR$/WpfApp3/ViewModel/PageViewModel/StartPageViewModel.cs" />
         <option value="$PROJECT_DIR$/WpfApp3/ViewModel/MainWindowViewModel.cs" />
-        <option value="$PROJECT_DIR$/WpfApp3/App.xaml" />
         <option value="$PROJECT_DIR$/WpfApp3/Style/Fonts.xaml" />
         <option value="$PROJECT_DIR$/WpfApp3/Style/Texts.xaml" />
         <option value="$PROJECT_DIR$/WpfApp3/Style/Image/Buttons.xaml" />
         <option value="$PROJECT_DIR$/WpfApp3/Style/Combobox.xaml" />
-        <option value="$PROJECT_DIR$/WpfApp3/ViewModel/Base/OverlayService.cs" />
         <option value="$PROJECT_DIR$/WpfApp3/Core/EnumToItemsSource.cs" />
         <option value="$PROJECT_DIR$/WpfApp3/Converter/EnumConverter.cs" />
         <option value="$PROJECT_DIR$/WpfApp3/Core/Mode/GameMode.cs" />
@@ -69,18 +99,22 @@
         <option value="$PROJECT_DIR$/WpfApp3/Helpers/ArrayTools.cs" />
         <option value="$PROJECT_DIR$/WpfApp3/Core/CellState.cs" />
         <option value="$PROJECT_DIR$/WpfApp3/Core/GameResult.cs" />
-        <option value="$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/StartPageViewModel.cs" />
         <option value="$PROJECT_DIR$/WpfApp3/Views/Pages/ResultPage.xaml.cs" />
         <option value="$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/ResultPageViewModel.cs" />
-        <option value="$PROJECT_DIR$/WpfApp3/Style/Buttons.xaml" />
-        <option value="$PROJECT_DIR$/WpfApp3/Views/Pages/ResultPage.xaml" />
-        <option value="$PROJECT_DIR$/WpfApp3/Views/Pages/GamePage.xaml" />
         <option value="$PROJECT_DIR$/WpfApp3/Model/Elements.cs" />
-        <option value="$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/GamePageViewModel.cs" />
-        <option value="$PROJECT_DIR$/WpfApp3/Views/Pages/StartPage.xaml" />
         <option value="$PROJECT_DIR$/WpfApp3/ViewModel/Base/BaseViewModel.cs" />
         <option value="$PROJECT_DIR$/.idea/.idea.WpfApp3/.idea/.gitignore" />
+        <option value="$PROJECT_DIR$/WpfApp3/ViewModel/Base/OverlayService.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/StartPageViewModel.cs" />
         <option value="$PROJECT_DIR$/WpfApp3/Views/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/GamePageViewModel.cs" />
+        <option value="$PROJECT_DIR$/WpfApp3/Views/Pages/StartPage.xaml" />
+        <option value="$PROJECT_DIR$/WpfApp3/Style/Buttons.xaml" />
+        <option value="$PROJECT_DIR$/WpfApp3/Views/Pages/ResultPage.xaml" />
+        <option value="$PROJECT_DIR$/WpfApp3/Style/ScrollViewViewer.xaml" />
+        <option value="$PROJECT_DIR$/WpfApp3/App.xaml" />
+        <option value="$PROJECT_DIR$/WpfApp3/Style/ScrolViewViewer.xaml" />
+        <option value="$PROJECT_DIR$/WpfApp3/Views/Pages/GamePage.xaml" />
       </list>
     </option>
   </component>
@@ -151,6 +185,7 @@
       <workItem from="1577863022908" duration="14731000" />
       <workItem from="1577946368330" duration="479000" />
       <workItem from="1577946921554" duration="261000" />
+      <workItem from="1577954829572" duration="5962000" />
     </task>
     <task id="LOCAL-00001" summary="MyProject">
       <created>1577947164108</created>
@@ -172,7 +207,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -183,22 +220,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="MyProject" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="154" key="GridCell.Tab.0.bottom" timestamp="1577946861783">
+    <state width="1323" height="156" key="GridCell.Tab.0.bottom" timestamp="1577960934752">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577946861783" />
-    <state width="1323" height="154" key="GridCell.Tab.0.center" timestamp="1577946861783">
+    <state width="1323" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577960934752" />
+    <state width="1323" height="156" key="GridCell.Tab.0.center" timestamp="1577960934751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577946861783" />
-    <state width="1323" height="154" key="GridCell.Tab.0.left" timestamp="1577946861783">
+    <state width="1323" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577960934751" />
+    <state width="1323" height="156" key="GridCell.Tab.0.left" timestamp="1577960934751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577946861783" />
-    <state width="1323" height="154" key="GridCell.Tab.0.right" timestamp="1577946861783">
+    <state width="1323" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577960934751" />
+    <state width="1323" height="156" key="GridCell.Tab.0.right" timestamp="1577960934752">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577946861783" />
+    <state width="1323" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577960934752" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1577786974597">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -271,6 +308,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577789183165" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1577947311408">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577947311408" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1577874501395">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
