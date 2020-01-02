@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="275f20f0-933a-4d69-b743-a387fdbff7d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp3/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp3/.idea/projectSettingsUpdater.xml" afterDir="false" />
+    <list default="true" id="275f20f0-933a-4d69-b743-a387fdbff7d5" name="Default Changelist" comment="MyProject">
+      <change beforePath="$PROJECT_DIR$/WpfApp3/Views/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp3/Views/MainWindow.xaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,37 +14,38 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/StartPageViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/Commands/DelegateCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/Navigator/Navigate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/App.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/Style/Texts.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Core/EnumToItemsSource.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Core/GameResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Core/Mode/GameMode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Model/Elements.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WpfApp3/Style/Fonts.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WpfApp3/Style/Buttons.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Style/Texts.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WpfApp3/Style/Combobox.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/59FBC93C-EEDB-4022-A198-1C86E9CF8E53/9/Uri.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/ViewModel/Base/OverlayService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/59FBC93C-EEDB-4022-A198-1C86E9CF8E53/A/UriExt.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/Core/Mode/GameMode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/Core/EnumToItemsSource.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/Converter/EnumConverter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/ViewModel/MainWindowViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/ViewModel/Base/BaseViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/GamePageViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/Pages/StartPage.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/Model/Elements.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WpfApp3/Views/Pages/StartPage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/Pages/ResultPage.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Annotations.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/Pages/GamePage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/App.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/Pages/StartPage.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/Pages/ResultPage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WpfApp3/Views/Pages/GamePage.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WpfApp3/Helpers/ArrayTools.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/Pages/GamePage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/Core/CellState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/Core/GameResult.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/Pages/ResultPage.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp3/Views/Pages/ResultPage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Commands/DelegateCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Converter/EnumConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Navigator/Navigate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/ViewModel/MainWindowViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/ViewModel/Base/OverlayService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/ViewModel/Base/BaseViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/GamePageViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/StartPageViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/ResultPageViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/59FBC93C-EEDB-4022-A198-1C86E9CF8E53/A/UriExt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/59FBC93C-EEDB-4022-A198-1C86E9CF8E53/9/Uri.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp3/Core/CellState.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -80,9 +78,17 @@
         <option value="$PROJECT_DIR$/WpfApp3/Model/Elements.cs" />
         <option value="$PROJECT_DIR$/WpfApp3/ViewModel/PagesViewModel/GamePageViewModel.cs" />
         <option value="$PROJECT_DIR$/WpfApp3/Views/Pages/StartPage.xaml" />
-        <option value="$PROJECT_DIR$/WpfApp3/Views/MainWindow.xaml" />
         <option value="$PROJECT_DIR$/WpfApp3/ViewModel/Base/BaseViewModel.cs" />
+        <option value="$PROJECT_DIR$/.idea/.idea.WpfApp3/.idea/.gitignore" />
+        <option value="$PROJECT_DIR$/WpfApp3/Views/MainWindow.xaml" />
       </list>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Rus\RiderProjects\WpfApp3\.idea\.idea.WpfApp3\.idea" />
+      </set>
     </option>
   </component>
   <component name="ProjectId" id="1VkAWJiy0hdptbYVf7WRmciy4KT" />
@@ -144,7 +150,16 @@
       <workItem from="1577786758384" duration="4670000" />
       <workItem from="1577863022908" duration="14731000" />
       <workItem from="1577946368330" duration="479000" />
+      <workItem from="1577946921554" duration="261000" />
     </task>
+    <task id="LOCAL-00001" summary="MyProject">
+      <created>1577947164108</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577947164108</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +167,21 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MyProject" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyProject" />
+  </component>
   <component name="WindowStateProjectService">
     <state width="1323" height="154" key="GridCell.Tab.0.bottom" timestamp="1577946861783">
       <screen x="0" y="0" width="1366" height="728" />

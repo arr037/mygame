@@ -12,7 +12,7 @@
         <viewModel:MainWindowViewModel />
     </Window.DataContext>
     
-    <Border Background="#3099c5">
+    <Border Background="#3099c4">
         <Grid>
             <Grid.Background>
                 <ImageBrush TileMode="Tile" ViewportUnits="Absolute" Viewport="0 0 500 500" ImageSource="../Style/Image/emoji-background.png"/>
